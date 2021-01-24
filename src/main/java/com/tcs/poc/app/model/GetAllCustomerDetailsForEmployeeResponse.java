@@ -12,4 +12,5 @@ public class GetAllCustomerDetailsForEmployeeResponse {
 	private String emailID;
 	private long mobileNo;
 	private int accountStatusId;
+	private String gender;
 }
