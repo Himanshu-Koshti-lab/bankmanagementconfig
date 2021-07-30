@@ -1,14 +1,11 @@
 package com.tcs.poc.app.model;
 
-import java.util.Date;
-
 import lombok.Data;
 
 @Data
-public class GetCustomer {
+public class GetUser {
 
-	private int user_id;
-    private String firstName;
+	private String firstName;
     private String lastName;
     private String emailID;
     private long mobileNo;
@@ -16,5 +13,4 @@ public class GetCustomer {
     private String permanentCity;
     private String permanentState;
     private long permanentZipcode;
-    
 }
